@@ -3,9 +3,14 @@ body {
 }
 
 .image{
-    border: 5px solid green;
+    margin: 15px;
     border-radius: 10px;
-    height: 400px;
+    height: 300px;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.655);
+}
+
+#image-container{
+    width: 100vw;
 }
 
 .link-button {
