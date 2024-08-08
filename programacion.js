@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let imagenActual = imagen1;
 
     boton.addEventListener('click', function() {
-        if (imagenActual === imagen1) {
+        if (imagenActual == imagen1) {
             imagen.src = imagen2;
             imagenActual = imagen2;
         } else {
