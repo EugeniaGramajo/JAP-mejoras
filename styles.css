@@ -1,13 +1,17 @@
-body {
-    background-color: rgb(255, 255, 165);
-}
-
 .image{
-    border: 5px solid green;
+    margin: 15px;
     border-radius: 10px;
-    height: 400px;
+    height: 300px;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.655);
 }
 
+#image-container{
+    width: 100vw;
+}
+.bg-blue-800 {
+    background-color: #003f6c; /* Valor hexadecimal de $blue-800 */
+    color: white; /* Ajusta el color del texto para el contraste */
+}
 .link-button {
     text-decoration: none;
     color: black;
@@ -16,4 +20,8 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+.button {
+    margin-left: 1rem;
 }
