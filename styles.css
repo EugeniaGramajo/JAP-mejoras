@@ -1,13 +1,12 @@
-body {
-    background-color: rgb(22, 22, 182);
-}
-
 .image{
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
 }
-
+.bg-blue-800 {
+    background-color: #003f6c; /* Valor hexadecimal de $blue-800 */
+    color: white; /* Ajusta el color del texto para el contraste */
+}
 .link-button {
     text-decoration: none;
     color: black;
